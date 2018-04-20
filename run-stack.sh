@@ -1,5 +1,5 @@
 #!/bin/bash
-
+aws ecr get-login --no-include-email --region ap-south-1 | bash
 aws cloudformation $ACTION \
     --region ap-south-1 \
     --stack-name $STACK_NAME \
