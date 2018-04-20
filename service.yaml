@@ -126,9 +126,7 @@ Resources:
                                     "elasticloadbalancing:DescribeTargetGroups",
                                     "elasticloadbalancing:DescribeTargetHealth",
                                     "elasticloadbalancing:RegisterTargets",
-                                    "cloudformation:CreateStack",
-                                    "cloudformation:UpdateStack",
-                                    "cloudformation:DeleteStack"
+                                    "cloudformation:*"
                                 ],
                                 "Resource": "*"
                         }]
